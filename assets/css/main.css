@@ -1,0 +1,145 @@
+.header {
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(0, #ff6633, #f53d2d);
+    height: 120px;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__navbar-list {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.header__navbar-item {
+    margin: 0 8px;
+    position: relative;
+
+}
+
+.header__navbar-item-icon {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.header__navbar-item,
+.header__navbar-item-link {
+    display: inline-flex;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.header__navbar-item:hover,
+.header__navbar-item-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.header__navbar-item-bold {
+    font-weight: 600;
+}
+
+.header__navbar-item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #f98d81;
+    height: 14px;
+    right: -9px;
+    top: 0;
+
+}
+
+/* header__qr */
+.header__navbar-item--qr-code:hover .header__qr{
+    display: block;
+}
+.header__qr {
+    width: 185px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    position: absolute;
+    padding: 8px;
+    left: 0;
+    top: calc(100% + 12px);
+    display:none;
+    animation: facein ease-in 0.3s;
+}
+.header__qr::before{
+    content:"";
+    display: bl ock;
+    position: absolute;
+    width: 100%;
+    height:20px;
+    left:0;
+    top:-15px;
+}
+
+.header__qr-img {
+    width: 100%;
+}
+
+.header__qr-apps {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__qr-link:first-child {
+    margin-left: 19px;
+}
+
+.header__qr-link:last-child {
+    margin-right: 19px;
+}
+
+
+.header__qr-download-img {
+    height: 17px;
+
+}
+/* header__notify  */
+.header__notify{
+    position: absolute;
+    top:100%;
+    right:5px;
+    width: 404px;
+    background-color: var(--white-color);
+    
+}
+
+.header__notify-header {
+
+
+}
+
+.header__notify-list {
+
+}
+
+.header__notify-item {
+
+}
+
+.header__notify-img {
+
+}
+
+.header__notify-info {
+
+}
+
+.header__notify-name {
+
+}
+
+.header__notify-descriotion {
+
+}
+

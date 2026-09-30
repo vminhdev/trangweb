@@ -191,5 +191,13 @@
 }
 
 .header__notify-footer {
-
+    width: 40px;
+    background-color:var(--white-color);
 }
+.header__notify-footer h3{
+    color:#555;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+}
+

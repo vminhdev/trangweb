@@ -207,3 +207,55 @@
     font-weight: 400;
     text-align: center;
 }
+/* search-box */
+.header__wrapper{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper__search {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.wrapper__search-logo {
+
+}
+
+.wrapper__search-box {
+
+}
+
+.wrapper__searchbar {
+
+}
+
+.wrapper__searchbar-find {
+
+}
+
+.wrapper__searchbar-icon {
+
+}
+
+.wrapper__keyworks {
+
+}
+
+.wrapper__keyworks-item {
+
+}
+
+.wrapper__shopping {
+
+}
+
+.wrapper__shopping-icon {
+
+}
+

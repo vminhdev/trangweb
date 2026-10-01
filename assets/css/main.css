@@ -139,6 +139,7 @@
 }
 .header__notify-header h3{
     color:#999;
+    cursor: default;
     font-size: 1.4rem;
     font-weight: 400;
     margin:0 0 0 10px;
@@ -235,12 +236,13 @@
 }
 
 .wrapper__search2 {
+    width: 842px;
 
 }
 
 .wrapper__search2-box {
     display:flex;
-    width: 842px;
+    
     height:43px;
     border-radius: 5px ;
     background-color: var(--white-color);
@@ -250,6 +252,7 @@
 .wrapper__search2-search-box {
     width: 100%;
     padding:0 10px;
+    font-size: 1.4rem;
     margin-left:4px;
     border:0;
 }
@@ -263,7 +266,12 @@
     border-radius: 5px;
 }
 .wrapper__search2-icon>div{
+    display: inline-block;
     text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color:var(--white-color);
+    font-weight: 200;
 }
 
 
@@ -271,18 +279,20 @@
     display:flex;
     width: 100%;
     justify-content: center;
-}
+} 
 
 .wrapper__search2-name{
     display:flex;
+    width: 100%;
     justify-content: space-between;
 }
 .wrapper__search2-name > a{
     text-decoration: none;
     color:var(--white-color);
+    text-align: center;
     font-size: 1.4rem;
     font-weight: 200;
-    margin:5px 0 5px 13px;
+    margin:5px 0 0 13px;
 }
 
 .wrapper__search3 {

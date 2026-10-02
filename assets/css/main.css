@@ -122,7 +122,7 @@
     border: 1px solid #f5f5f5;
     display: none;
     transform-origin: calc(100% - 20px) top;
-    animation: notification ease-in 0.2s;
+    animation: notification ease-in 0.25s;
 }
 .header__notify::before { /*cầu nối*/
     content: "";
@@ -133,6 +133,15 @@
     left: 0;
     top: -15px;
 }
+.header__notify::after{
+    content: "";
+    position: absolute;
+    border: 10px solid;
+    right:15px;
+    top:-20px;
+    border-color:transparent transparent var(--white-color) transparent;
+}
+
 
 .header__notify-header{
     height: 40px;

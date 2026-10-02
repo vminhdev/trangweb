@@ -69,8 +69,6 @@ html {
 }
 .modal__body{
     z-index: 1;
-    height:600px;
-    width: 600px;
     margin:auto;
     background-color: var(--white-color);
     border-radius: 3px;

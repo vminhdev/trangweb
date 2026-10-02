@@ -313,4 +313,22 @@
 .wrapper__search3-icon {
 
 }
+/* auth modal */
 
+.auth-from__container{
+    padding:0 32px;
+}
+.auth-from__header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.auth-from__heading{
+    font-size: 2rem;
+    font-weight: 600;
+    color:var(--text-color);
+}
+.auth-from__btn{
+    font-size: 1.8rem;
+    color:red;
+}

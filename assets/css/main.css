@@ -324,10 +324,7 @@
 .wrapper__search3-icon {}
 
 /* auth modal */
-.modal {
-    /* display:none; */
-    animation: modal ease 0.1s;
-}
+
 
 .auth-from {
     width: 500px;
@@ -388,9 +385,33 @@
     line-height: 1.8rem;
 }
 
+.auth-from__help {
+    margin-top:20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 .auth-from__link {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+.auth-from__help-link{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color:var(--text-color);
+}
+
+.auth-from__help-forget {
+    color:var(--primary-color);
+}
+
+
+.auth-from__help--separate {
+    display: flex;
+    border-left:1px solid #dad7d7;
+    margin: 0 16px;
 }
 
 .auth-from__control {

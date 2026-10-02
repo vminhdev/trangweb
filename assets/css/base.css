@@ -51,14 +51,7 @@ html {
     }
 }
 
-@keyfram modal{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
+
 
 /* modal */
 .modal {

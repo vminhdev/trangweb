@@ -133,13 +133,14 @@
     left: 0;
     top: -15px;
 }
-.header__notify::after{
+
+.header__notify::after{ /* border tam giác*/ 
     content: "";
     position: absolute;
-    border: 10px solid;
-    right:15px;
-    top:-20px;
+    border:13px solid;
     border-color:transparent transparent var(--white-color) transparent;
+    right:18px;
+    top:-25px;
 }
 
 

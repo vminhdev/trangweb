@@ -236,12 +236,17 @@
 .header-with-search{
     height:var(--header-with-search-height);
     display: flex;
+    justify-content: space-around;
+
 }
 .header__lopgo{
     width: 200px;
+    display: flex;
+    justify-content: center;
 }
 .header__logo-img{
-    width: 150px;
+    width: 148px;
+    height:48px;
 }
 .header__search{
     flex:1;

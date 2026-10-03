@@ -1,12 +1,12 @@
 .header {
     font-family: "Roboto", sans-serif;
     background-image: linear-gradient(0, #ff6633, #f53d2d);
-    height: 120px;
+    height:var(--header-height);
 }
 
 .header__navbar {
     display: flex;
-    height: 38px;
+    height:var(--navbar-height);
     justify-content: space-around;
 }
 
@@ -233,6 +233,41 @@
 }
 
 /* search-box */
+.header-with-search{
+    height:var(--header-with-search-height);
+    display: flex;
+}
+.header__lopgo{
+    width: 200px;
+}
+.header__logo-img{
+    width: 150px;
+}
+.header__search{
+    flex:1;
+    height:44px;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    overflow: hidden;
+}
+.header__search-input{
+    width: 100%;
+    height:100%;
+    border:none;
+    padding:0 10px;
+}
+.header__cart{
+    width: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__cart-icon{
+    font-size: 2rem;
+    color:var(--white-color);
+}
+
+
 
 
 /* auth modal */

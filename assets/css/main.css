@@ -4,10 +4,15 @@
     height:var(--header-height);
 }
 
+.gird{
+    width: 1300px;
+    max-width: 100%;
+    margin:auto;
+}
 .header__navbar {
     display: flex;
     height:var(--navbar-height);
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header__navbar-list {
@@ -236,13 +241,14 @@
 .header-with-search{
     height:var(--header-with-search-height);
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 
 }
 .header__lopgo{
     width: 200px;
     display: flex;
-    justify-content: center;
+    padding:0 0 0 5px;
+    
 }
 .header__logo-img{
     width: 148px;
@@ -252,20 +258,39 @@
     flex:1;
     height:44px;
     background-color: var(--white-color);
-    border-radius: 2px;
-    overflow: hidden;
+    border-radius: 3px;
+    display: flex;
 }
 .header__search-input{
-    width: 100%;
+    flex:1;
     height:100%;
     border:none;
+    outline: none;
     padding:0 10px;
+    font-size: 1.4rem;
+    padding:0 16px;
+    border-radius: 3px;
+}
+.header__search-input-check{
+    width: 60px;
+    height:40px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    border:none;
+    padding: 3px 3px 3px 0;
+}
+.header__search-input-check-icon{
+    color:var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 .header__cart{
     width: 138px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .header__cart-icon{
     font-size: 2rem;

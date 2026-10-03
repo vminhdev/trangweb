@@ -265,6 +265,7 @@
     border-radius: 3px;
     display: flex;
     align-items: center;
+    position: relative;
 
 }
 
@@ -293,6 +294,27 @@
     font-size: 1rem;
     color: #7c7c7c;
     padding: 0 26px 0 10px;
+}
+.header__search-option{
+    position: absolute;
+    right:65px;
+    top:78%;
+    width: 175px;
+    list-style: none;
+    text-align: right;
+}
+.header__search-option-item{
+    border-radius: 3px;
+    background-color: var(--white-color);
+    box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.05);
+    color:var(--text-color);
+    padding:12px 8px;
+    font-size: 1.4rem;
+}
+.header__search-option-item-icon {
+    font-size: 1.2rem;
+    color:var(--primary-color);
+    margin:0 3px 0 8px;
 }
 
 .header__search-check {

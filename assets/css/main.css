@@ -386,11 +386,16 @@
     width: 138px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .header__cart-icon {
     font-size: 2rem;
     color: var(--white-color);
+}
+
+.header__cart-list{
+    position: absolute;
 }
 
 

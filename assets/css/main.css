@@ -262,28 +262,75 @@
     flex: 1;
     height: 44px;
     background-color: var(--white-color);
-    border-radius: 3px;
+    border-radius: 2px;
     display: flex;
     align-items: center;
     position: relative;
 
 }
+.header__search-wrap{
+    flex: 1;
+    height:100%;
+}
 
 .header__search-input {
-    flex: 1;
     height: 100%;
+    width: 100%;
     border: none;
     outline: none;
     padding: 0 10px;
     font-size: 1.4rem;
     padding: 0 16px;
-    border-radius: 3px;
+    border-radius: 2px;
+}
+/* .header__search-histry */
+.header__search-input:focus ~ .header__search-histry {
+    display: block;
+}
+
+
+.header__search-histry {
+    background-color: var(--white-color);
+    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 2px;
+    width: calc(100% - 20px);
+    margin-top: 3px;
+    overflow: hidden;
+    display: none;
+}
+
+
+.header__search-heading {
+    margin: 0;
+    padding:8px 16px;
+    font-size: 1.3rem;
+    color:#999;
+    font-weight: 400;
+}
+.header__search-list {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.header__search-item {
+    padding:8px 16px;
+}
+
+.header__search-item:hover {
+    background-color: #f7f7f7;
+}
+.header__search-item a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:var(--text-color);
+    font-weight: 400;
 }
 
 .header__search-select {
     border-left: 1px solid #d8d7d7;
     padding-left: 15px;
 }
+
 
 .header__search-select {
     font-size: 1.4rem;
@@ -295,6 +342,7 @@
     color: #7c7c7c;
     padding: 0 26px 0 10px;
 }
+/*  header__search-select-option  */
 .header__search-option{
     position: absolute;
     right:65px;
@@ -304,7 +352,7 @@
     text-align: right;
 }
 .header__search-option-item{
-    border-radius: 3px;
+    border-radius: 2px;
     background-color: var(--white-color);
     box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.05);
     color:var(--text-color);
@@ -322,7 +370,7 @@
     border:none;
     height:38px;
     width: 60px;
-    border-radius: 3px;
+    border-radius: 2px;
     margin-right: 3px;
 }
 .header__search-check:hover {
@@ -354,7 +402,7 @@
 .auth-from {
     width: 500px;
     background-color: var(--white-color);
-    border-radius: 3px;
+    border-radius: 2px;
     overflow: hidden;
 }
 

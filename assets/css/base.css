@@ -19,7 +19,8 @@ html {
     box-sizing: border-box;
 }
 
-.gird {
+
+.grid {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
@@ -32,7 +33,22 @@ html {
 .gird__row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
 }
+
+.grid__column-2{
+    padding-left:12px;
+    padding-right: 12px;
+    width: 16.6667%;
+}
+
+.grid__column-10{
+    padding-left:12px;
+    padding-right: 12px;
+    width: 83.3334%;
+}
+
 
 /* animation */
 @keyframes facein {

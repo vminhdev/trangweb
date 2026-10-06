@@ -3,9 +3,9 @@
     background-image: linear-gradient(0, #ff6633, #f53d2d);
     height: var(--header-height);
 }
-
+/* responsive */
 .gird {
-    width: 1300px;
+    width: 1600px;
     max-width: 100%;
     margin: auto;
 }

@@ -156,7 +156,7 @@
                         </div>
                         <div class="header__search-select">Trong shop
                             <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
-                            <!-- <ul class="header__search-option">
+                            <ul class="header__search-option">
                                 <li class="header__search-option-item">
                                     <span>Trong shop</span>
                                     <i class="header__search-option-item-icon fa-solid fa-check fa-beat"></i>
@@ -165,19 +165,27 @@
                                     <span>Ngoài shop</span>
                                     <i class="header__search-option-item-icon fa-solid fa-check fa-beat"></i>
                                 </li>
-                            </ul> -->
+                            </ul>
                         </div>
-                         <button class="header__search-check">
+                        <button class="header__search-check">
                             <i class="header__search-check-icon fa-solid fa-magnifying-glass"></i>
-                        </button> 
+                        </button>
                     </div>
                     <div class="header__cart">
-                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
-                        <div class="header__cart-list header__cart-list--no-cart">
-                            <img class="header__cart-list--no-cart-icon" src="./assets/css/img/no_cart.png" alt=" no-cart">
-                            <span class="header__cart-list--no-cart-msg">
-                                Chưa có sản phẩm 
-                            </span>
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                            <span class="header__cart-has-cart">3</span>
+                            <!-- khi k có hàng add: header__cart-list--no-cart -->
+                            <div class="header__cart-list ">
+                                <img class="header__cart-list--no-cart-icon" src="./assets/css/img/no_cart.png"
+                                    alt=" no-cart">
+                                <span class="header__cart-list--no-cart-msg">
+                                    Chưa có sản phẩm
+                                </span>
+
+                                <h3 class="header__cart-heading">Sẳn Phẩm Đã Thêm</h3>
+
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -194,7 +202,7 @@
         </footer>
     </div>
     <!-- modal -->
-     <!-- <div class="modal">
+    <!-- <div class="modal">
         <div class="modal__overlay"></div>
         <div class="modal__body">
             <div class="modal__content">  -->
@@ -241,7 +249,7 @@
                 </div>  -->
 
     <!-- login from -->
-     <!-- <div class="auth-from">
+    <!-- <div class="auth-from">
                     <div class="auth-from__container">
                         <div class="auth-from__header">
                             <h3 class="auth-from__heading">Đăng nhập</h3>

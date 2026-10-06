@@ -477,9 +477,9 @@
 }
 
 .header__cart-heading {
-    font-size: 1.5rem;
-    color:#999;
-    font-weight: 400;
+    font-size: 1.6rem;
+    color:#afaeae;
+    font-weight: 300;
     margin: 0;
     padding:13px 12px;
     cursor: text;
@@ -488,25 +488,27 @@
 
 .header__cart-list-item {
     display: flex;
-    margin:13px 12px;
-    justify-content: space-between;
+    list-style: none;
+    padding:12px;
+    margin: 0;
 }
 
 .header__cart-img {
     width: 50px;
-    height:50px;
-    background-size: cover;
+    border:1px solid #dfdede;
+}
+
+.header__cart-item {
+    display: flex;
 }
 
 .header__cart-item-name {
     margin: 0;
-    flex:1;
     font-size: 1.6rem;
-    color:#666;
     font-weight: 400;
-    padding:0 14px;
+    color:#555;
+    padding:0 15px;
     cursor: text;
-
 }
 
 .header__cart-item-price {
@@ -515,9 +517,11 @@
     cursor: text;
 }
 
-.header__cart-list-item:hover{
-    background-color: #999;
+.header__cart-list-item:hover {
+    background-color: #f7f7f7;
 }
+
+
 /* auth modal */
 
 

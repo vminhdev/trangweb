@@ -356,7 +356,7 @@
     width: 175px;
     list-style: none;
     text-align: right;
-    display: none;
+    /* display: none;  */
     animation: facein ease-in 0.2s;
 }
 

@@ -673,5 +673,8 @@
 
 /* container */
 .container{
-    background-color: #dfdede;
+    background-color: #f5f5f5;
+}
+.Categories{
+    background-color: var(--white-color);
 }

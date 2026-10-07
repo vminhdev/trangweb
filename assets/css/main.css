@@ -10,6 +10,7 @@
     margin: auto;
 }
 
+
 .header__navbar {
     display: flex;
     height: var(--navbar-height);
@@ -674,7 +675,51 @@
 /* container */
 .container{
     background-color: #f5f5f5;
+    padding:20px 0;
 }
 .Categories{
     background-color: var(--white-color);
+    padding:8px;
+    border-radius: 3px;;
+}
+.Categories__heading{
+    margin: 0 ;
+    font-size: 1.9rem;
+    color:var(--text-color);
+    font-weight: 800;
+    padding:13px 0;
+
+}
+.Categories__heading-icon{
+    padding-right:25px;
+    font-size: 1.4rem;
+}
+
+.Categories__hr{
+    background-color: #e4e4e4;
+    border:none;
+    height:1px;
+}
+.Categories-list{
+    list-style: none;
+    padding-left:15px;
+}
+
+.Categories-item{
+    padding:10px 0;
+}
+
+.Categories-item__link{
+    position: relative;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color:#333;
+    font-weight: 300;
+    display: block;
+    transition: right linear 0.1s; /* hiệu ứng chuyển động */
+    right:0; /* nếu không set thì hiệu ứng chạy sẽ bị loạn  */
+}
+.Categories-item__link:hover{
+    right: -5px;
+    color:var(--primary-color);
 }

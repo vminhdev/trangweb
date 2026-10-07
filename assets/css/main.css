@@ -5,7 +5,7 @@
 }
 /* responsive */
 .grid {
-    width: 1700px;
+    width: 1800px;
     max-width: 100%;
     margin: auto;
 }
@@ -669,4 +669,9 @@
     display: flex;
     border-left: 1px solid #dad7d7;
     margin: 0 16px;
+}
+
+/* container */
+.container{
+    background-color: #dfdede;
 }

@@ -677,6 +677,8 @@
     background-color: #f5f5f5;
     padding:20px 0;
 }
+
+/* column-2 */
 .Categories{
     background-color: var(--white-color);
     padding:8px;
@@ -693,6 +695,7 @@
 .Categories__heading-icon{
     padding-right:25px;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 
 .Categories__hr{
@@ -722,4 +725,80 @@
 .Categories-item__link:hover{
     right: -5px;
     color:var(--primary-color);
+}
+
+/* column-10 */
+
+.arrange{
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    height:60px;
+    border-radius: 2px;
+}
+.arrange__heading{
+    color:#333;
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin: 0 22px;
+}
+
+.arrange__button {
+    border:none;
+    background-color: var(--white-color);
+    color:#e8e8e8;
+    font-size: 1.4rem;
+    padding:8px 20px;
+    margin:0 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.arrange__button:hover {
+    background-color: var(--primary-color);
+    color:var(--white-color);
+}
+
+.arrange__btn {
+    position: relative;
+    border:none;
+    background-color: var(--white-color);
+    color:#e8e8e8;
+    font-size: 1.4rem;
+    padding:8px 14px;
+    margin:0 10px;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.arrange__btn-icon {
+    color:#333;
+    margin-left: 120px;
+    font-size: 1.2rem;
+
+}
+.arrange__btn-price-level {
+    background-color: var(--white-color);
+    position: absolute;
+    top:100%;
+    right:0;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 2px;
+    display: none;
+}
+
+.arrange__btn-price-level-link {
+    text-decoration: none;
+    color:#333;
+    display: block;
+    padding:10px 0;
+    font-size: 1.7rem;
+}
+
+.arrange__btn-price-level-link:hover{
+    color:var(--primary-color);
+}
+
+.arrange__btn:hover .arrange__btn-price-level {
+    display: block;
 }

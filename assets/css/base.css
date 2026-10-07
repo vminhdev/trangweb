@@ -30,7 +30,7 @@ html {
     width: 100%;
 }
 
-.gird__row {
+.grid__row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -12px;
@@ -38,7 +38,7 @@ html {
 }
 
 .grid__column-2{
-    /* padding-left:12px; */
+    padding-left:12px;
     padding-right: 12px;
     width: 16.6667%;
 }

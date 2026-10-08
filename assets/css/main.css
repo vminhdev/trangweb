@@ -406,6 +406,7 @@
     font-size: 1.4rem;
 }
 
+/* header__cart */
 .header__cart {
     width: 138px;
     display: flex;
@@ -722,6 +723,18 @@
     transition: right linear 0.1s; /* hiệu ứng chuyển động */
     right:0; /* nếu không set thì hiệu ứng chạy sẽ bị loạn  */
 }
+
+.Categories-item__link-before::before{
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--primary-color );
+    top:3px;
+    left:-14px;
+    
+
+}
 .Categories-item__link:hover{
     right: -5px;
     color:var(--primary-color);
@@ -793,6 +806,20 @@
     display: block;
     padding:10px 0;
     font-size: 1.7rem;
+}
+
+.arrange__button-navigation {
+    position: relative;
+    border:none;
+    padding: 11px 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    margin-right: 1px;
+    left:550px;
+}
+
+.arrange__button-navigation-icon {
+
 }
 
 .arrange__btn-price-level-link:hover{

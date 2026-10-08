@@ -836,7 +836,7 @@
 }
 
 .product-item__img {
-    background-size:cover ;
+    padding-top:100%;
 }
 
 .product-item__heading {
@@ -867,6 +867,7 @@
 
 }
 
+
 .product-item__Evaluate-item {
 
 }
@@ -875,21 +876,7 @@
 
 }
 
-.product-item__Evaluate-item-star {
 
-}
-
-.product-item__Evaluate-item-star {
-
-}
-
-.product-item__Evaluate-item-star {
-
-}
-
-.product-item__Evaluate-item-star {
-
-}
 
 .product-item__Origin {
 
@@ -899,6 +886,4 @@
 
 }
 
-.product-item__Origin-item {
 
-}

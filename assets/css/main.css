@@ -920,8 +920,8 @@ i.product-item__Evaluate-item--liked-heart{
 }
 
 .product-item__Evaluate-item-slod {
-    color:var(--)
-
+    color:var(--text-color);
+}
 .product-item__Origin {
     display: flex;
     justify-content: space-between;

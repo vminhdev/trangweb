@@ -931,7 +931,7 @@ i.product-item__Evaluate-item--liked-heart{
     color:var(--text-color);
     font-size:1.6rem ;
     line-height: 2.8rem;
-    padding:0 8px;
+    padding:0 8px 0 0;
 }
 
 .product-item__Origin {

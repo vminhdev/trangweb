@@ -895,21 +895,21 @@
     justify-content: space-between;
 }
 
-.product-item__Evaluate-item-like {
+.product-item__Evaluate-item {
     padding:7px 5px;
     color:#888;
     font-size: 1.4rem;
 }
-i.product-item__Evaluate-item--liked-icon-heart{
+i.product-item__Evaluate-item--liked-heart{
     color:var(--primary-color);
     display: none;
 }
 
-.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-icon-empty{
+.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-empty{
     display: none;
 }
 
-.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-icon-heart{
+.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-heart{
     display: block;
 }
 

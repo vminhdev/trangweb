@@ -831,59 +831,84 @@
 }
 
 /* product */
-.product-item{
+.product-item:hover {
+    top:-1px;
+    box-shadow: 0 4px 10px #ccc;
+}
 
+.product{
+     padding-top:24px;
+}
+.product-item{
+    position: relative;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    padding-bottom: 7px;
+    box-shadow: 0 1px 5px #ccc;
+    cursor: pointer;
+    transition: top linear 0.1s;
 }
 
 .product-item__img {
     padding-top:100%;
+    border-radius: 2px;
 }
 
 .product-item__heading {
-
+    font-size: 1.5rem;
+    color:var(--text-color);
+    font-weight: 600;
+    margin: 0;
+    padding:10px 5px;
 }
 
 .product-item__price {
-
+    padding:0 5px;
 }
 
 .product-item__price-old-price {
-
+    font-size: 1.8rem;
+    text-decoration: line-through;
+    color:#888;
+    font-weight: 500;
 }
 
 .product-item__price-new-price {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color:var(--primary-color);
+    padding-left:5px;
 
 }
 
 .product-item__Evaluate {
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .product-item__Evaluate-item {
-
+    padding:7px 5px;
 }
 
 .product-item__Evaluate-item-favourite {
-
-}
-
-
-.product-item__Evaluate-item {
-
+    color:#888;
+    font-size: 1.4rem;
 }
 
 .product-item__Evaluate-item-star {
-
+    color:#c3c2c2;
 }
 
-
-
 .product-item__Origin {
+    display: flex;
+    justify-content: space-between;
 
 }
 
 .product-item__Origin-item {
-
+    color:#666;
+    font-size: 1.4rem;
+    padding:0 5px;
 }
 
 

@@ -916,7 +916,11 @@ i.product-item__Evaluate-item--liked-heart{
     display: block;
 }
 
-
+.product-item__Evaluate-item-star {
+    padding:7px 5px;
+    color:#888;
+    font-size: 1.4rem;
+}
 
 .product-item__Evaluate-item-icon-star {
     color:#c3c2c2;

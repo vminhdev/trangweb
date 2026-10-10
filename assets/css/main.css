@@ -861,9 +861,14 @@
     font-size: 1.5rem;
     color:var(--text-color);
     font-weight: 600;
-    margin: 0;
+    margin: 10px 5px;
     line-height: 1.8rem;
-    padding:10px 5px;
+    height:36px;
+    overflow: hidden;
+    display: -webkit-box; /* kích hoạt webkit-box để cắt dòng  */
+    -webkit-box-orient: vertical; /* cắt theo chiều dọc  */
+    -webkit-line-clamp: 2;  /* cắt ở dòng thứ 2 */
+
 }
 
 .product-item__price {

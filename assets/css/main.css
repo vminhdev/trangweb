@@ -907,10 +907,7 @@
     font-size: 1.4rem;
 }
 
-.product-item__Evaluate-item-sold {
-    line-height: 1.8rem;
-    font-size: 1.6rem;
-}
+
 
 i.product-item__Evaluate-item--liked-heart{
     color:var(--primary-color);

@@ -863,7 +863,7 @@
     font-size: 1.4rem;
     padding-right:4px;
     border-top-right-radius: 3px;
-    border
+    border-bottom-right-radius: 3px;
 }
 
 .product-item__img {

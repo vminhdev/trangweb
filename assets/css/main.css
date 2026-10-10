@@ -907,8 +907,6 @@
     font-size: 1.4rem;
 }
 
-
-
 i.product-item__Evaluate-item--liked-heart{
     color:var(--primary-color);
     display: none;

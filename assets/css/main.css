@@ -860,6 +860,7 @@
     background-color: var(--primary-color);
     color:var(--white-color);
     line-height: 1.8rem;
+    font-size: 1.6rem;
     padding-right:4px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;

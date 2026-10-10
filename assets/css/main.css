@@ -852,6 +852,7 @@
 .product-item__favourite i {
     font-size:1.4rem;
     margin-left: 3px;
+    font-weight: 500;
 }
 
 .product-item__favourite {

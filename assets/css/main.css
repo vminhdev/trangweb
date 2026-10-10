@@ -920,11 +920,11 @@ i.product-item__Evaluate-item--liked-heart{
     color:#c3c2c2;
 }
 
-/* .product-item__Evaluate-item-slod {
+.product-item__Evaluate-item-slod {
     color:var(--text-color);
     font-size:1.6rem ;
     line-height: 2.8rem;
-} */
+}
 .product-item__Origin {
     display: flex;
     justify-content: space-between;

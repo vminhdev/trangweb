@@ -849,7 +849,10 @@
     transition: top linear 0.1s;
 }
 
-
+.product-item__favourite {
+    position: absolute;
+    top:10
+}
 
 .product-item__img {
     padding-top:100%;

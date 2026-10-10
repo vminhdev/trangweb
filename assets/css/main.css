@@ -862,6 +862,8 @@
     line-height: 1.8rem;
     font-size: 1.4rem;
     padding-right:4px;
+    border-top-right-radius: 3px;
+    border
 }
 
 .product-item__img {

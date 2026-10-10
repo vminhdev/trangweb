@@ -855,7 +855,8 @@
     left:-4px;
     background-color: var(--primary-color);
     color:var(--white-color);
-    
+    line-height: 1.8rem;
+    font-size: ;
 }
 
 .product-item__img {

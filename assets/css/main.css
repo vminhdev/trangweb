@@ -856,7 +856,7 @@
 .product-item__favourite {
     position: absolute;
     top:10px;
-    left:-4px;
+    left:-5px;
     background-color: var(--primary-color);
     color:var(--white-color);
     line-height: 1.8rem;

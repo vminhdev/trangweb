@@ -854,7 +854,8 @@
     top:10px;
     left:-4px;
     background-color: var(--primary-color);
-    color:
+    color:var(--white-color);
+    
 }
 
 .product-item__img {

@@ -905,11 +905,11 @@ i.product-item__Evaluate-item--liked-icon-heart{
     display: none;
 }
 
-.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-empty{
+.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-icon-empty{
     display: none;
 }
 
-.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-heart{
+.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-icon-heart{
     display: block;
 }
 

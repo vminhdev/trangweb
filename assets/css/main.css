@@ -901,11 +901,7 @@
     font-size: 1.4rem;
 }
 
-.product-item__Evaluate-item-star {
-    padding:7px 5px;
-    color:#888;
-    font-size: 1.4rem;
-}
+
 
 i.product-item__Evaluate-item--liked-heart{
     color:var(--primary-color);

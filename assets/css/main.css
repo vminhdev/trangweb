@@ -851,7 +851,10 @@
 
 .product-item__favourite {
     position: absolute;
-    top:10
+    top:10px;
+    left:-4px;
+    background-color: var(--primary-color);
+    color:
 }
 
 .product-item__img {

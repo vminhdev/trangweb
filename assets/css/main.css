@@ -839,7 +839,7 @@
 .product{
      padding-top:24px;
 }
-.product-item{
+.product-item {
     position: relative;
     background-color: var(--white-color);
     border-radius: 2px;

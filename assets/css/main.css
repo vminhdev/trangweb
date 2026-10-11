@@ -868,6 +868,9 @@
 }
 
 .product-item__discount {
+    position: absolute;
+    top:0;
+    right:0;
     
 }
 

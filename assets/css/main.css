@@ -132,7 +132,7 @@
     display: none;
     transform-origin: calc(100% - 20px) top;
     animation: notification ease-in 0.25s;
-    
+    z-index: 1;
 }
 
 .header__notify::before {

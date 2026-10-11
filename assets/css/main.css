@@ -880,9 +880,9 @@
 .product-item__discount::after {
     content: "";
     position: absolute;
-    border-width: 0 20px 6px;
+    border-width: 0 20px 5px;
     border-style: solid;
-    bottom:-6px;
+    bottom:-5px;
     left:0;
     border-color: transparent rgba(255, 216, 64, 0.95) transparent rgba(255, 216, 64, 0.95);
 }

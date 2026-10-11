@@ -878,7 +878,7 @@
 }
 
 .product-item__discount-one {
-    margin: 0;
+    margin: 2px 0;
     color:var(--primary-color);
     font-size: 1.4rem;
     font-weight: 900;

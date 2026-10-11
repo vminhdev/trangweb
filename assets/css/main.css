@@ -273,6 +273,7 @@
 }
 
 .header__search-wrap {
+    position: relative;
     flex: 1;
     height: 100%;
 }

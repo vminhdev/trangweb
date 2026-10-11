@@ -878,7 +878,9 @@
 }
 
 .product-item__discount-one {
-    
+    color:var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 .product-item__img {

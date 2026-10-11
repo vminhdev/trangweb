@@ -937,14 +937,14 @@
     padding:0 5px;
 }
 
-.product-item__old-price {
+.product-item__price-old {
     font-size: 1.8rem;
     text-decoration: line-through;
     color:#888;
     font-weight: 500;
 }
 
-.product-item__ {
+.product-item__price-new {
     font-size: 1.8rem;
     font-weight: 500;
     color:var(--primary-color);

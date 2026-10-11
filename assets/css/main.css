@@ -937,7 +937,7 @@
     padding:0 5px;
 }
 
-.product-item__price-old-price {
+.product-item__price-old {
     font-size: 1.8rem;
     text-decoration: line-through;
     color:#888;

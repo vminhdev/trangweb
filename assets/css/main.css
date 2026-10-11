@@ -850,7 +850,7 @@
 .product-item {
     position: relative;
     background-color: var(--white-color);
-    border-radius: 2px;
+    border-radius: 8px;
     padding-bottom: 7px;
     border:1px solid #dedede;
     cursor: pointer;

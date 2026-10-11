@@ -856,6 +856,7 @@
     cursor: pointer;
     transition: top linear 0.1s;
     margin-bottom: 12px;
+    overflow: hidden;
 }
 
 .product-item__favourite i {

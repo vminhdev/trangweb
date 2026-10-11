@@ -132,6 +132,7 @@
     display: none;
     transform-origin: calc(100% - 20px) top;
     animation: notification ease-in 0.25s;
+    
 }
 
 .header__notify::before {

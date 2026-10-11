@@ -454,6 +454,7 @@
     animation: facein ease-in 0.2s;
     cursor: default;
     display: none;
+    z-index: 1;
 }
 /* no cart */
 .header__cart-list--no-cart .header__cart-list--no-cart-icon,

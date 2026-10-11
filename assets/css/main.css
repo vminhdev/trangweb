@@ -879,7 +879,8 @@
 
 .product-item__discount::after {
     content: "";
-    
+    position: absolute;
+    border-width: 0 ;
 }
 .product-item__discount-one {
     margin: 2px 0 0;

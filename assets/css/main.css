@@ -340,6 +340,7 @@
     padding-left: 15px;
     font-size: 1.4rem;
     color: var(--text-color);
+    z-index: 1;
 }
 
 .header__search-select:hover .header__search-option {

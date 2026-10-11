@@ -882,7 +882,7 @@
     position: absolute;
     border-width: 0 20px 6px;
     border-style: solid;
-    back
+    border-color: transparent ;
 }
 .product-item__discount-one {
     margin: 2px 0 0;

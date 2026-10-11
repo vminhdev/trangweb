@@ -847,6 +847,7 @@
     border:1px solid #dedede;
     cursor: pointer;
     transition: top linear 0.1s;
+    
 }
 
 .product-item__favourite i {

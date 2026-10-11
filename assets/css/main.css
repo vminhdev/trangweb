@@ -868,7 +868,7 @@
 }
 
 .product-item__discount {
-    
+    display: inline-block;
 }
 
 .product-item__img {

@@ -944,7 +944,7 @@
     font-weight: 500;
 }
 
-.product-item__price-new {
+.product-item__ {
     font-size: 1.8rem;
     font-weight: 500;
     color:var(--primary-color);

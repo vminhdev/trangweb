@@ -933,11 +933,11 @@
 
 }
 
-.product-item__old-price {
+.product-item__price {
     padding:0 5px;
 }
 
-.product-item__new-price {
+.product-item__new {
     font-size: 1.8rem;
     text-decoration: line-through;
     color:#888;

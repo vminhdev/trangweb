@@ -873,7 +873,7 @@
     right:0;
     width: 40px;
     height:36px;
-    background-color: #333;    
+    background-color: oklab(32.109% 0 -0.00004);    
 }
 
 .product-item__img {

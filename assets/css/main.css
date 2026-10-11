@@ -877,6 +877,7 @@
     background-color: rgba(255, 216, 64, 0.95);    
 }
 
+.product-item__discount::
 .product-item__discount-one {
     margin: 2px 0 0;
     color:var(--primary-color);

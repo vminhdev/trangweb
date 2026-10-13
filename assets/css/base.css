@@ -154,7 +154,7 @@ html {
 
 }
 
-.pagination-item--active {
+.pagination-item--active .pagination-item__link {
     background-color: #ee4d2d;
     color:#fff;
     border-radius: 2px;

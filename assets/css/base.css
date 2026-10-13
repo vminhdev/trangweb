@@ -155,7 +155,8 @@ html {
 }
 
 .pagination-item__link--active {
-    
+    background-color: #ee4d2d;
+    color:var(--white-color);
 }
 .pagination-item__link {
     display: block;

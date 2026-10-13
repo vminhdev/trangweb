@@ -151,7 +151,7 @@ html {
 }
 
 .pagination-item {
-    margin:40px
+    margin:0 
 }
 
 .pagination-item--active .pagination-item__link {

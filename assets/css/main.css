@@ -1062,6 +1062,7 @@ i.product-item__Evaluate-item--liked-heart{
     display: flex;
     flex-direction: column;
     margin-left:5px;
+    align-content: center;
     
 }
 

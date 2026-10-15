@@ -1060,8 +1060,8 @@ i.product-item__Evaluate-item--liked-heart{
     margin-left:5px;
 }
 .footer__list-item-appstore, .footer__list-item-googleplay {
-    font-size: 1rem;\
-    
+    font-size: 1rem;
+    margin-top: 20px;
 
 }
 

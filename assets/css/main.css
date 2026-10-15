@@ -1057,13 +1057,11 @@ i.product-item__Evaluate-item--liked-heart{
     height:85px;
 }
 
-.footer__list-item-app-link {
-    margin-left:5px;
-}
 
 .footer__list-item-app {
     display: flex;
     flex-direction: column;
+    margin-left:5px;
     
 }
 

@@ -1066,7 +1066,7 @@ i.product-item__Evaluate-item--liked-heart{
     display: block;
 }
 
-.footer__list-item-appstore, .footer__list-item-googleplay {
+.footer__list-item-appstore, .footer__list-item-googleplay,  {
     height:2.2rem;
 }
 

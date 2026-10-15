@@ -10,7 +10,7 @@
 }
 
 * {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {

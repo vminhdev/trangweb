@@ -1018,7 +1018,7 @@ i.product-item__Evaluate-item--liked-heart{
 /* footer */
 
 .footer {
-    border-top: 4px solid ;
+    border-top: 4px solid var(--primary-color);
 }
 
 

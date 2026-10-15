@@ -1025,7 +1025,7 @@ i.product-item__Evaluate-item--liked-heart{
     font-size: 1.6rem;
     color: var(--text-color);
     font-weight: 600;
-    margin-top: 64px;
+    margin-top: 64px 0 ;
 }
 
 .footer__list {

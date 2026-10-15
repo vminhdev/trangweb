@@ -824,6 +824,7 @@
     background-color: var(--white-color);
     margin-right: 1px;
     left:550px;
+    cursor: pointer;
 }
 
 .arrange__button-navigation-icon {

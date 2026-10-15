@@ -1026,7 +1026,6 @@ i.product-item__Evaluate-item--liked-heart{
     color: var(--text-color);
     font-weight: 600;
     margin: 64px 0 20px 0;
-    font-family:sans-serif;
 }
 
 .footer__list {
@@ -1043,7 +1042,6 @@ i.product-item__Evaluate-item--liked-heart{
 .footer__list-item-link {
     text-decoration: none;
     font-size: 1.6rem;
-    font-family: sans-serif;
     font-weight: 500;
     color:#666;
 }

@@ -1059,12 +1059,12 @@ i.product-item__Evaluate-item--liked-heart{
 .footer__list-item-app-link {
     margin-left:5px;
 }
-.footer__list-item-appstore {
+.footer__list-item-appstore, .footer__list-item-googleplay {
     font-size: 1rem;
 
 }
 
-.footer__list-item-googleplay {
+ {
     font-size: 1rem;
 
 }

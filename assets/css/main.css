@@ -1034,6 +1034,7 @@ i.product-item__Evaluate-item--liked-heart{
 
 .footer__list-item {
     padding-bottom: 12px;
+    display: flex;
 }
 
 

@@ -1042,13 +1042,13 @@ i.product-item__Evaluate-item--liked-heart{
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 500;
-    color:#555;
+    color:#;
 }
 
 .footer__list-item-icon {
     font-size: 1.6rem;
     padding-right: 5px;
-    color:
+    color:#666;
 }
 
 .footer__list-item-QRCODE {

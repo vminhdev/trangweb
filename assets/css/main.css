@@ -1029,6 +1029,7 @@ i.product-item__Evaluate-item--liked-heart{
 
 .footer__list {
     list-style: none;
+    padding: 0;
 }
 
 .footer__list-item {

@@ -1046,8 +1046,8 @@ i.product-item__Evaluate-item--liked-heart{
 }
 
 .footer__list-item-icon {
-    font-size: 1.6rem;\
-    
+    font-size: 1.6rem;
+    padding-right: 5px;
 }
 
 .footer__list-item-QRCODE {

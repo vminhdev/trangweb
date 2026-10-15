@@ -1060,7 +1060,10 @@ i.product-item__Evaluate-item--liked-heart{
 
 .footer__list-item-app {
     margin-left:5px;
-    
+}
+
+.footer__list-item-app-link {
+    display: block;
 }
 
 .footer__list-item-appstore, .footer__list-item-googleplay {

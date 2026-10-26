@@ -695,7 +695,7 @@
     background-color: var(--white-color);
     padding:8px;
     border-radius: 3px;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 8px #ccc;
 }
 .Categories__heading{
     margin: 0 ;

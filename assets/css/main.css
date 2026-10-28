@@ -757,6 +757,10 @@
     display: flex;
 }
 
+.Categories-item__ip:first-child {
+    margin-right: ;
+}
+
 .Categories-item__ip-price {
     width: 80px;
     height: 30px;

@@ -771,7 +771,8 @@
 .Categories-item__btn {
     width: 192px;
     height: 32px;
-    outline: none;
+    border:none;
+    
 }
 
 .Categories-item__link-before::before{

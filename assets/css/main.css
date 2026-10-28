@@ -768,6 +768,9 @@
     font-size: 1.6rem;
 }
 
+.Categories-item__btn {
+    
+}
 
 .Categories-item__link-before::before{
     content: "";

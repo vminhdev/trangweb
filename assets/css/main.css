@@ -743,6 +743,9 @@
     padding:10px 0;
 }
 
+.Categories-item__tick {
+    
+}
 .Categories-item__link--static {
     position: relative;
     text-decoration: none;

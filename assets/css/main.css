@@ -769,7 +769,8 @@
 }
 
 .Categories-item__btn {
-    w
+    width: 192px;
+    height: 32px;
 }
 
 .Categories-item__link-before::before{

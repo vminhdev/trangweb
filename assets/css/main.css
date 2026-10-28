@@ -774,6 +774,7 @@
     border:none;
     background-color: var(--primary-color);
     color:#fff;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 

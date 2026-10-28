@@ -754,7 +754,7 @@
 }
 
 .Categories-item__ip {
-
+    display: flex;
 }
 
 .Categories-item__ip-price {

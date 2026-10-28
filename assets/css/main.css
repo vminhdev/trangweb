@@ -718,6 +718,7 @@
     background-color: #e4e4e4;
     border:none;
     height:1px;
+    padding:
 }
 .Categories-list{
     list-style: none;
@@ -744,7 +745,7 @@
 }
 
 .Categories-item__tick {
-    
+
 }
 .Categories-item__link--static {
     position: relative;

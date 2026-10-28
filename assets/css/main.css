@@ -266,7 +266,7 @@
     height: 48px;
 }
 .header__logo-img img {
-    
+    background-color: var(--primary-color);
 }
 
 .header__search {

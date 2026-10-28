@@ -757,7 +757,7 @@
     display: flex;
 }
 
-.Categories-item__ip::last-child {
+.Categories-item__ip:last-child {
     margin-right: 33px;
 }
 

@@ -744,7 +744,12 @@
 }
 
 .Categories-item__link--static {
-
+    position: relative;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color:#333;
+    font-weight: 300;
+    display: block;
 }
 
 .Categories-item__link-before::before{

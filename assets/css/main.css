@@ -744,9 +744,6 @@
     padding:10px 0;
 }
 
-.Categories-item__tick {
-
-}
 .Categories-item__link--static {
     position: relative;
     text-decoration: none;
@@ -755,6 +752,9 @@
     font-weight: 300;
     display: block;
 }
+
+Categories-item__ip
+Categories-item__ip-price
 
 .Categories-item__link-before::before{
     content: "";

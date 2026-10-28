@@ -790,6 +790,11 @@
 .Categories-item__Evaluate {
     display: flex;
 }
+
+.Categories-item__Evaluate-star {
+
+}
+
 .Categories-item__link-before::before{
     content: "";
     position: absolute;

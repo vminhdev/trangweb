@@ -763,7 +763,8 @@
     height: 30px;
     margin:14px 0;
     border:1px solid #c8c8c8;
-    border-radius:3px ;
+    border-radius:3px;
+    outline: none;
 }
 
 

@@ -739,8 +739,14 @@
     right:0; /* nếu không set thì hiệu ứng chạy sẽ bị loạn  */
 }
 
-Categories-item--static
-Categories-item__link--static
+.Categories-item--static {
+
+}
+
+.Categories-item__link--static {
+
+}
+
 .Categories-item__link-before::before{
     content: "";
     position: absolute;

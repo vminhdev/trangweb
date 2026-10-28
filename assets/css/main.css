@@ -783,6 +783,10 @@
     cursor: pointer;
 }
 
+.Categories-item__btn:hover {
+    
+}
+
 .Categories-item__link-before::before{
     content: "";
     position: absolute;

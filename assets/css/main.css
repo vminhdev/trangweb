@@ -797,6 +797,10 @@
     margin-right: 5px;
 }
 
+.Categories-item__Evaluate-star--hollow {
+    
+}
+
 .Categories-item__link-before::before{
     content: "";
     position: absolute;

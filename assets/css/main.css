@@ -780,6 +780,7 @@
     font-size: 1.6rem;
     font-weight: 500;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .Categories-item__link-before::before{

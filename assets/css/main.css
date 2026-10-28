@@ -755,9 +755,11 @@
 
 .Categories-item__ip {
     display: flex;
-    justify-content: space-between;
 }
 
+.Categories-item__ip input:first-child {
+    
+}
 .Categories-item__ip-price {
     width: 80px;
     height: 32px;

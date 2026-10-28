@@ -755,10 +755,7 @@
 
 .Categories-item__ip {
     display: flex;
-}
-
-.Categories-item__ip input:last-child {
-    margin-right: 33px;
+    justify-content: space-between;
 }
 
 .Categories-item__ip-price {

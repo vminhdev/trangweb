@@ -266,7 +266,7 @@
     height: 48px;
 }
 
-.header__logo-img img {
+.header__logo-img-link img {
     width: 148px;
     height: 48px;
     background-size: cover;

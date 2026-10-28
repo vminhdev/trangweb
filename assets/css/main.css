@@ -787,6 +787,9 @@
     background-color: rgb(240, 95, 66);
 }
 
+.Categories-item__Evaluate {
+    display: flex;
+}
 .Categories-item__link-before::before{
     content: "";
     position: absolute;

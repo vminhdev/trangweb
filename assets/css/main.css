@@ -773,7 +773,8 @@
     height: 32px;
     border:none;
     background-color: var(--primary-color);
-    color:
+    color:#fff;
+    font-weight: 500;
 }
 
 .Categories-item__link-before::before{

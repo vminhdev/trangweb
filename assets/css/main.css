@@ -789,7 +789,7 @@
 
 .Categories-item__Evaluate {
     display: flex;
-    margin: 14px;
+    margin:0 0  14px;
 }
 
 .Categories-item__Evaluate-star {

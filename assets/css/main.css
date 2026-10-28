@@ -753,8 +753,14 @@
     display: block;
 }
 
-Categories-item__ip
-Categories-item__ip-price
+.Categories-item__ip {
+
+}
+
+.Categories-item__ip-price {
+
+}
+
 
 .Categories-item__link-before::before{
     content: "";

@@ -1032,25 +1032,9 @@
     justify-content: space-between;
 }
 
-.product-item__Evaluate-item-like {
-    padding:7px 5px;
-    color:#888;
-    font-size: 1.4rem;
-}
 
-/*  */
 
-.product-item__Evaluate-item--liked-heart {
-    color:var(--primary-color);
-}
 
-.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-empty{
-    display: block;
-}
-
-.product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-heart{
-    display: none;
-}
 
 /*  */
 

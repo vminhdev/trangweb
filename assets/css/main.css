@@ -1046,11 +1046,11 @@ i.product-item__Evaluate-item--liked-heart {
 }
 
 .product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-empty{
-    display: none;
+    display: block;
 }
 
 .product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-heart{
-    display: block;
+    display: none;
 }
 
 .product-item__Evaluate-item-star {

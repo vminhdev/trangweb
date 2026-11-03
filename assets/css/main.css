@@ -1065,11 +1065,11 @@ i.product-item__Evaluate-heart-red {
     opacity: 1;
 }
 .product-item__Evaluate-heart:active .product-item__Evaluate-heart-black {
-    opacity: 0;
+    opacity: 1;
 }
 
 .product-item__Evaluate-heart:active .product-item__Evaluate-heart-red {
-    opacity: 1;
+    opacity: 0;
 }
 
 

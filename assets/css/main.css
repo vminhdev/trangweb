@@ -1042,7 +1042,6 @@
 
 .product-item__Evaluate-item--liked-heart {
     color:var(--primary-color);
-    display: none;
 }
 
 .product-item__Evaluate-item--liked .product-item__Evaluate-item--liked-empty{

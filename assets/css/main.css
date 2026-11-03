@@ -1056,7 +1056,9 @@ i.product-item__Evaluate-heart-red {
     transition: opacity 0.15s ease ;
 }
 
-.product-item__Evaluate-heart:focus 
+.product-item__Evaluate-heart:focus .product-item__Evaluate-heart-black {
+    opacity: 0;
+}
 
 
 /*  */

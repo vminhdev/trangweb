@@ -1036,7 +1036,9 @@
     position: relative;
     display: inline-block;
     font-size: 1.4rem;
-    
+    cursor: pointer;
+    outline: none;
+    use
 }
 
 .product-item__Evaluate-heart-black {

@@ -1068,6 +1068,9 @@ i.product-item__Evaluate-heart-red {
     opacity: 0;
 }
 
+.product-item__Evaluate-heart:focus .product-item__Evaluate-heart-black {
+    opacity: 1;
+}
 
 /*  */
 

@@ -1045,7 +1045,7 @@
     
 }
 
-i.product-item__Evaluate-heart-red {
+.product-item__Evaluate-heart-red {
     position: absolute;
     color:var(--primary-color);
     top: 1px;

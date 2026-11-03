@@ -1033,6 +1033,9 @@
 }
 
 .product-item__Evaluate-heart {
+    position: relative;
+    display: inline-block;
+    font-size: 1.4rem;
     
 }
 

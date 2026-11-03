@@ -1048,7 +1048,8 @@
 .product-item__Evaluate-heart-red {
     position: absolute;
     color:var(--primary-color);
-    
+    top:0;
+    left:0;
 }
 
 

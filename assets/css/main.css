@@ -1160,7 +1160,7 @@ Y .footer__list-item-link:hover {
     color: var(--primary-color);
 }
 
-.footer__list-item-icon {
+Y .footer__list-item-icon {
     font-size: 1.6rem;
     padding-right: 5px;
     color: #666;

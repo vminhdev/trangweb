@@ -85,7 +85,7 @@
     top: calc(100% + 12px);
     display: none;
     animation: facein ease-in 0.3s;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .header__qr::before {
